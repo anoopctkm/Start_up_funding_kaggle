@@ -1,0 +1,17 @@
+library(plyr) #Data manipulation
+library(dplyr) #Data Manipulation
+library(tidyr) #Data reading
+library(splitstackshape) #Column Split
+library(ggplot2) #Data visualisation
+library(ggthemes) #Themes
+library(kableExtra) #Data Table
+library(knitr)# Data Table
+library(cowplot) #Multiplot
+library(stringr) #String manipulation
+library(zoo) # Time & Date manipulation
+library(viridis) 
+library(ggrepel) 
+library(forcats) #Factor manipulation
+star=read.csv("../input/startup_funding.csv",header=TRUE,stringsAsFactors = FALSE)
+glimpse(star)
+summary(star)
